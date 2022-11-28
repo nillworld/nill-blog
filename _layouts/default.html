@@ -92,8 +92,8 @@
     ================================================== -->
         <div class="newsletter text-center">
           <span class="h4"
-            ><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}" /> &nbsp; Never miss a <b>story</b> from us,
-            subscribe to our newsletter</span
+            ><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}" /> &nbsp; Never
+            miss a <b>story</b> from us, subscribe to our newsletter</span
           >
           <form
             action="{{site.mailchimp-list}}"
@@ -104,7 +104,15 @@
             novalidate
           >
             <div class="mc-field-group d-inline-flex">
-              <input type="email" placeholder="Your e-mail" name="EMAIL" class="required email" id="mce-EMAIL" autocomplete="on" required />
+              <input
+                type="email"
+                placeholder="Your e-mail"
+                name="EMAIL"
+                class="required email"
+                id="mce-EMAIL"
+                autocomplete="on"
+                required
+              />
               <input type="submit" value="Subscribe" name="subscribe" class="heart" />
             </div>
           </form>
@@ -117,10 +125,13 @@
       <footer class="footer">
         <div class="container">
           <div class="row">
-            <div class="col-md-6 col-sm-12 text-center text-lg-left">Copyright © {{ site.time | date: "%Y" }} {{ site.name }}</div>
-            <div class="col-md-6 col-sm-12 text-center text-lg-right">
-              <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by WowThemes.net
+            <div class="col-sm-12 text-center text-lg-right">
+              Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
             </div>
+            <!-- <div class="col-md-6 col-sm-12 text-center text-lg-right">
+              <a target="_blank" href="https://www.wowthemes.net/memoirs-free-jekyll-theme/">Memoirs Jekyll Theme</a> by
+              WowThemes.net
+            </div> -->
           </div>
         </div>
       </footer>
