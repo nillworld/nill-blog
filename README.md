@@ -1,5 +1,19 @@
-# Memoirs Jekyll Theme
+# Nill Platform
 
-[Live Demo](https://wowthemesnet.github.io/jekyll-theme-memoirs/) | [Docs & Download](https://bootstrapstarter.com/jekyll-theme-memoirs/) |  [Buy me a coffee](https://www.wowthemes.net/donate/)
+## Nill's blog
 
-![memoirs](https://bootstrapstarter.com/assets/img/themes/memoirs-jekyll.jpg)
+Hello, It's Nill's blog
+
+---
+
+---
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
+### Theme
+
+[Memoirs Jekyll Theme](https://bootstrapstarter.com/jekyll-theme-memoirs/)
