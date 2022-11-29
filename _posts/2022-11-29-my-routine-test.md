@@ -43,12 +43,49 @@ image: assets/images/2022-11-29-plan.jpg
   </ul>
  </details>
 
-###
+<br/>
+
+### Programming
 
   <details>
-  <summary> Semester 1 </summary>
+  <summary> Blog </summary>
   <ul>
     <li> Data Visualization </li>
     <li> Ethics </li>
   </ul>
   </details>
+  <details>
+  <summary> Lecture </summary>
+  <ul>
+    <li> Node </li>
+    <li> React </li>
+    <li> AWS </li>
+    <li> Algorithm </li>
+    <li> 3D JS </li>
+    <li> Typescript </li>
+  </ul>
+  </details>
+  <details>
+  <summary> Gallery </summary>
+  </details>
+
+<br/>
+
+### Photo
+
+  <details>
+  <summary> PhotoShop </summary>
+  </details>
+  <details>
+  <summary> Movie </summary>
+  </details>
+
+### Music
+
+  <details>
+  <summary> LaunchPad </summary>
+  </details>
+  <details>
+  <summary> Composition </summary>
+  </details>
+
