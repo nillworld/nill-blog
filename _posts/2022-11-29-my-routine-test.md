@@ -16,8 +16,6 @@ image: assets/images/2022-11-29-plan.jpg
 
 ### English  
 
-<br/>
-
   <details>
   <summary> Conversation </summary>
   <ul>
@@ -79,6 +77,8 @@ image: assets/images/2022-11-29-plan.jpg
   <details>
   <summary> Movie </summary>
   </details>
+
+<br/>
 
 ### Music
 
