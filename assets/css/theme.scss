@@ -45,6 +45,9 @@ h5,
 h6 {
   font-weight: 700;
 }
+.container {
+  // min-height: 75vh;
+}
 .site-content {
   padding-top: 50px;
 }
@@ -214,6 +217,7 @@ img:hover {
   background: #fff;
   padding: 0;
   margin: 0;
+  overflow-y: scroll;
   transform: translate(-100%, 0);
   z-index: 1022;
   &.active {
@@ -256,7 +260,7 @@ img:hover {
 .blog-grid-item {
   color: #333;
   padding: 0;
-  display: flex;
+  // display: flex;
   align-items: center;
   .author-thumb {
     width: 40px;
@@ -628,7 +632,7 @@ body.active-side {
 }
 //footer
 .footer {
-  margin-top: 120px;
+  margin-top: 300px;
   padding: 30px;
   border-top: 1px solid $gray-200;
   font-size: 15px;

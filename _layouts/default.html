@@ -52,13 +52,22 @@
     <div id="blackover-nav" class="blackover"></div>
     <nav id="menu">
       <ul>
-        <h3>Navigation</h3>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about">About</a></li>
+        <h3>Nillworld</h3>
+
+        <details>
+          <summary>Postings</summary>
+          <li><a href="{{ site.baseurl }}/">ALL</a></li>
+          {% for category in site.categories %}
+          <li><a href="{{site.baseurl}}/categories#{{ category[0] }}">{{ category[0] }}</a></li>
+          {% endfor %}
+        </details>
+        <!-- <li><a href="{{ site.baseurl }}/about">About</a></li> -->
         <li>
-          <a href="{{ site.baseurl }}/authors">Contributors <span class="badge badge-primary">new</span></a>
+          <a href="{{ site.baseurl }}/authors">
+            Author
+            <!-- <span class="badge badge-primary">new</span> -->
+          </a>
         </li>
-        <li><a target="_blank" href="https://bootstrapstarter.com/jekyll-theme-memoirs/">Get Memoirs</a></li>
         <!-- <li><a href="{{ site.baseurl }}/contact">Contact</a></li>        -->
       </ul>
     </nav>
@@ -90,7 +99,7 @@
         {% if site.mailchimp-list %}
         <!-- Newsletter
     ================================================== -->
-        <div class="newsletter text-center">
+        <!-- <div class="newsletter text-center">
           <span class="h4"
             ><img src="{{ site.baseurl }}/{{ site.logo }}" class="newsletter-logo" alt="{{site.title}}" /> &nbsp; Never
             miss a <b>story</b> from us, subscribe to our newsletter</span
@@ -116,7 +125,7 @@
               <input type="submit" value="Subscribe" name="subscribe" class="heart" />
             </div>
           </form>
-        </div>
+        </div> -->
         {% endif %}
       </div>
 
