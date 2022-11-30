@@ -19,21 +19,21 @@ image: assets/images/2022-11-29-plan.jpg
   <details>
   <summary> Conversation </summary>
   <ul>
-    <li> Yanadoo </li>
-    <li> Movie </li>
+    <li> Yanadoo - daily 1 lecture </li>
+    <li> Movie weekly 2hours (with Drama and Youtube)</li>
   - About Time
   - Inception
-    <li> Drama </li>
+    <li> Drama weekly 2hours (with Movie and Youtube)</li>
   - Big Bang Theory
   - Sherlock Holmes
-  <li> Youtube </li>
+  <li> Youtube weekly 2hours (with Movie and Drama)</li>
   - British Man
   <li> Pop Song </li>
   <li> Class - somoim </li>
   </ul>
  </details>
  <details>
-  <summary> Word </summary>
+  <summary> Word weekly 2hours</summary>
   <ul>
     <li> Yanadoo </li>
     <li> Sentence </li>
@@ -46,14 +46,14 @@ image: assets/images/2022-11-29-plan.jpg
 ### Programming
 
   <details>
-  <summary> Blog </summary>
+  <summary> Blog - weekly 5hours</summary>
   <ul>
     <li> Data Visualization </li>
     <li> Ethics </li>
   </ul>
   </details>
   <details>
-  <summary> Lecture </summary>
+  <summary> Lecture - weekly 3hours </summary>
   <ul>
     <li> Node </li>
     <li> React </li>
@@ -72,10 +72,10 @@ image: assets/images/2022-11-29-plan.jpg
 ### Photo
 
   <details>
-  <summary> PhotoShop </summary>
+  <summary> PhotoShop - weekly 1hour </summary>
   </details>
   <details>
-  <summary> Movie </summary>
+  <summary> Movie - weekly 1hour </summary>
   </details>
 
 <br/>
@@ -83,7 +83,7 @@ image: assets/images/2022-11-29-plan.jpg
 ### Music
 
   <details>
-  <summary> LaunchPad </summary>
+  <summary> LaunchPad - weekly 1hour </summary>
   </details>
   <details>
   <summary> Composition </summary>
