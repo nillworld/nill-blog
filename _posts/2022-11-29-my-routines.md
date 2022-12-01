@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Routines-test"
+title: "Routines"
 author: Nill
 categories: [Lifestyle]
 tags: [blog, plan, routine, goal]
