@@ -261,6 +261,9 @@ img:hover {
     }
   }
 }
+.nav-list {
+  padding: 0 20px 0 5px;
+}
 
 // =================================================================
 details > summary {
@@ -275,12 +278,19 @@ details > summary::-webkit-details-marker {
   margin-top: 5px;
 }
 .nav-summary {
+  display: flex;
+  justify-content: space-between;
   color: #8e9aa7;
   font-size: 1.2em;
 }
 .dropdown-arrow {
-  display: inline-block;
-  transform: rotate(90deg);
+  display: flex;
+  margin-left: 15px;
+  transition: all 0.5s;
+  color: rgba(164, 107, 167, 1);
+  // transform: rotate(90deg);
+  // font-size: 1.1em;
+  // font-weight: 900;
 }
 .posting-contents {
   padding: 10px 10px 10px 30px;

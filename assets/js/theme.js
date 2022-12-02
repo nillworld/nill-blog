@@ -6,6 +6,8 @@ class Accordion {
     this.el = el;
     // Store the <summary> element
     this.summary = el.querySelector(".nav-summary");
+    //
+    this.dropdownArrow = el.querySelector(".dropdown-arrow");
     // Store the <div class="content"> element
     this.content = el.querySelector(".posting-contents");
 
@@ -36,6 +38,7 @@ class Accordion {
   shrink() {
     // Set the element as "being closed"
     this.isClosing = true;
+    this.dropdownArrow.style.transform = "rotate(0deg)";
 
     // Store the current height of the element
     const startHeight = `${this.el.offsetHeight}px`;
@@ -67,6 +70,7 @@ class Accordion {
   }
 
   open() {
+    this.dropdownArrow.style.transform = "rotate(90deg)";
     // Apply a fixed height on the element
     this.el.style.height = `${this.el.offsetHeight}px`;
     // Force the [open] attribute on the details element

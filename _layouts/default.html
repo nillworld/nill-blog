@@ -53,7 +53,8 @@
     <nav id="menu">
       <ul>
         <h3>Nillworld</h3>
-        <!-- <li class="dropdown dropdown-6">
+        <div class="nav-list">
+          <!-- <li class="dropdown dropdown-6">
           TEST
           <ul class="dropdown_menu dropdown_menu--animated dropdown_menu-6">
             <li class="dropdown_item-1">Item 1</li>
@@ -63,28 +64,29 @@
             <li class="dropdown_item-5">Item 5</li>
           </ul>
         </li> -->
-        <details class="nav-details">
-          <summary class="nav-summary">
-            Postings
-            <div class="dropdown-arrow">></div>
-          </summary>
-          <div class="posting-contents">
-            <li id="dropdown-item-all"><a href="{{ site.baseurl }}/">ALL</a></li>
-            {% for category in site.categories %}
-            <li class="dropdown-items">
-              <a href="{{site.baseurl}}/categories#{{ category[0] }}">{{ category[0] }}</a>
-            </li>
-            {% endfor %}
-          </div>
-        </details>
-        <!-- <li><a href="{{ site.baseurl }}/about">About</a></li> -->
-        <li>
-          <a href="{{ site.baseurl }}/authors">
-            Author
-            <!-- <span class="badge badge-primary">new</span> -->
-          </a>
-        </li>
-        <!-- <li><a href="{{ site.baseurl }}/contact">Contact</a></li>        -->
+          <details class="nav-details">
+            <summary class="nav-summary">
+              Postings
+              <div class="dropdown-arrow">></div>
+            </summary>
+            <div class="posting-contents">
+              <li id="dropdown-item-all"><a href="{{ site.baseurl }}/">ALL</a></li>
+              {% for category in site.categories %}
+              <li class="dropdown-items">
+                <a href="{{site.baseurl}}/categories#{{ category[0] }}">{{ category[0] }}</a>
+              </li>
+              {% endfor %}
+            </div>
+          </details>
+          <!-- <li><a href="{{ site.baseurl }}/about">About</a></li> -->
+          <li>
+            <a href="{{ site.baseurl }}/authors">
+              Author
+              <!-- <span class="badge badge-primary">new</span> -->
+            </a>
+          </li>
+          <!-- <li><a href="{{ site.baseurl }}/contact">Contact</a></li>        -->
+        </div>
       </ul>
     </nav>
 
