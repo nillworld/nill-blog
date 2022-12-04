@@ -20,7 +20,7 @@ Ruby+Devkit 2.7.7-1 (x64)
 <!-- or  gem install bundler:1.17.2 -->
 > bundle exec jekyll serve --watch
 
-'http://127.0.0.1:4000/nill-blog'
+'http://127.0.0.1:4000/nill-blog/'
 </br>
 </br>
 </br>
