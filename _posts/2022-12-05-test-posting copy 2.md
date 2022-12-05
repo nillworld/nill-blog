@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "First posting"
+title: "test"
 author: Nill
-categories: [test, test]
+categories: []
 tags: [blog]
 image: assets/images/2022-11-28-14-46-21.png
 rating: 5
