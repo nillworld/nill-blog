@@ -1,7 +1,7 @@
 ---
-layout: categories
+layout: test/ok
 title: aa
-permalink: /test/test2
+permalink: /test/test/test2
 comments: false
 ---
 
