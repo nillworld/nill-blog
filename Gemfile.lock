@@ -81,7 +81,7 @@ GEM
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.19.0)
+    loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mercenary (0.4.0)
@@ -144,7 +144,6 @@ GEM
     tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
     zeitwerk (2.6.6)
 
 PLATFORMS
@@ -161,7 +160,6 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown
   rouge
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
    1.17.2
