@@ -22,6 +22,7 @@ Ruby+Devkit 2.7.7-1 (x64)
 
 'http://127.0.0.1:4000/nill-blog/'
 </br>
+'https://nillworld.github.io/nill-blog/'
 </br>
 </br>
 
